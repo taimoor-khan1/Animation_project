@@ -17,11 +17,9 @@ const HeaderContainer = styled(Box)(({ theme }) => ({
 
 const Header = () => {
   const { showModal } = useModal();
-
   return (
     <HeaderContainer id="outer-container">
       <MenuButton />
-
       <Logo src={require('../../../assets/img/logo.png')} alt="logo" />
       <SearchButton onClick={showModal} />
     </HeaderContainer>

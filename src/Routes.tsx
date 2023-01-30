@@ -10,7 +10,6 @@ const Router = () => {
   return (
     <BrowserRouter >
       <Suspense fallback={null}>
-
         <Routes >
           <Route path="/" element={<AppLayout />}>
             <Route path="/" element={<Landing />} />

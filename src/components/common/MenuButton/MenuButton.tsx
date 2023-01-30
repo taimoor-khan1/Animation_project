@@ -23,7 +23,7 @@ const MenuButton = () => {
     <StyledIconButton id="outer-container">
       {/* <MenuIcon /> */}
 
-      < Menu  >
+      < Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} noOverlay>
         <h1>Menu</h1>
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="keyEvent" className="menu-item" href="/keyevents">key Events</a>

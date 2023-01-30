@@ -5,10 +5,12 @@ import Header from '../Header';
 
 const AppLayout = () => {
   return (
-    <>
+    <div id="outer-container">
       <Header />
-      <Outlet />
-    </>
+      <div id="page-wrap">
+        <Outlet />
+      </div>
+    </div>
   );
 };
 

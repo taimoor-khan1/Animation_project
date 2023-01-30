@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import { styled } from '@mui/material/styles';
 import 'animate.css';
 import Container from '../components/common/Container';
@@ -9,7 +10,6 @@ const MarkImg = styled('img')({
   width: '285px',
   position: 'absolute',
   left: '40%',
-
   display: "flex",
   top: '11.88%',
   transform: 'translate(-50%)',
@@ -36,6 +36,7 @@ const YearText = styled('div')({
 
 const Landing = () => {
   return (
+
     <Container color='#c5202c' >
       <MarkImg className='animate__animated animate__backInDown' src={require('../assets/img/mark.png')} alt='mark' />
       <DescriptionBox className='animate__animated animate__backInUp'>
@@ -45,6 +46,8 @@ const Landing = () => {
         50 years of building the European trade union movement
       </DescriptionBox>
     </Container>
+
+
   );
 };
 
